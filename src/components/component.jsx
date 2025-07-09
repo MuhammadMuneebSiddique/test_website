@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaStar } from "react-icons/fa";
 
-export const Hero_Section = () => {
+export const HeroSection = () => {
   return (
     <section className='hero-section text-[10px] relative py-[3em] bg-[#FF5349] font-outfit flex justify-between text-[#fff] px-[8rem]'>
         <div className='left-side mt-[2em] flex flex-col gap-[1em] justify-start w-[55%]'>
@@ -19,7 +19,7 @@ export const Hero_Section = () => {
   )
 }
 
-export const Service_Section = () => {
+export const ServiceSection = () => {
 
     const features = [
         {title:"🔥 seamless connection",description:"stay in touch in friend, family and like-minded people with just a tap"},
@@ -50,7 +50,7 @@ export const Service_Section = () => {
     )
 }
 
-export const About_Section = () => {
+export const AboutSection = () => {
     const aboutPoint = [
         {title:"🎥 Short Videos & Reels",description:"Share engaging, bite-sized content that keeps everyone entertained."},
         {title:"🔔 Smart Notifications",description:"Stay updated on what matters without the noise."},

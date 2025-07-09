@@ -1,0 +1,809 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== HTML & BODY ===== */
+
+@media (width < 2020px) {
+    html,body{
+        font-size: 10px;
+    }
+}
+@media (width < 1920px) {
+    html,body{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1820px) {
+    html,body{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1720px) {
+    html,body{
+        font-size: 9px;
+    }
+}
+@media (width < 1620px) {
+    html,body{
+        font-size: 9px;
+    }
+}
+@media (width < 1520px) {
+    html,body{
+        font-size: 8.5px;
+    }
+}
+@media (width < 1420px) {
+    html,body{
+        font-size: 8.5px;
+    }
+}
+@media (width < 1320px) {
+    html,body{
+        font-size: 8px;
+    }
+}
+@media (width < 1220px) {
+    html,body{
+        font-size: 8px;
+    }
+}
+@media (width < 1120px) {
+    html,body{
+        font-size: 7.5px;
+    }
+}
+@media (width < 1020px) {
+    html,body{
+        font-size: 7.5px;
+    }
+}
+@media (width < 920px) {
+    html,body{
+        font-size: 7px;
+    }
+}
+@media (width < 820px) {
+    html,body{
+        font-size: 7px;
+    }
+}
+@media (width < 720px) {
+    html,body{
+        font-size: 6.5px;
+    }
+}
+@media (width < 620px) {
+    html,body{
+        font-size: 6px;
+    }
+}
+@media (width < 520px) {
+    html,body{
+        font-size: 5.5px;
+    }
+}
+@media (width < 420px) {
+    html,body{
+        font-size: 5px;
+    }
+}
+@media (width < 320px) {
+    html,body{
+        font-size: 4px;
+    }
+}
+
+
+/* ===== HERO SECTION ===== */
+
+
+@media (width < 2020px) {
+    .header{
+        font-size: 10px;
+    }
+}
+@media (width < 1920px) {
+    .header{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1820px) {
+    .header{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1720px) {
+    .header{
+        font-size: 9px;
+    }
+}
+@media (width < 1620px) {
+    .header{
+        font-size: 9px;
+    }
+}
+@media (width < 1520px) {
+    .header{
+        font-size: 8.5px;
+    }
+}
+@media (width < 1420px) {
+    .header{
+        font-size: 8.5px;
+    }
+}
+@media (width < 1320px) {
+    .header{
+        font-size: 8px;
+    }
+}
+@media (width < 1220px) {
+    .header{
+        font-size: 8px;
+    }
+}
+@media (width < 1120px) {
+    .header{
+        font-size: 7.5px;
+    }
+}
+@media (width < 1020px) {
+    .header{
+        font-size: 7.5px;
+    }
+}
+@media (width < 920px) {
+    .header{
+        font-size: 7px;
+    }
+}
+@media (width < 820px) {
+    .header{
+        font-size: 6.5px;
+    }
+}
+@media (width < 720px) {
+    .header{
+        font-size: 6px;
+    }
+}
+@media (width < 620px) {
+    .header{
+        font-size: 6px;
+    }
+}
+@media (width < 520px) {
+    .header{
+        font-size: 5px;
+    }
+}
+@media (width < 420px) {
+    .header{
+        font-size: 4px;
+    }
+}
+@media (width < 320px) {
+    .header{
+        font-size: 3px;
+    }
+}
+
+
+
+/* ===== HERO SECTION ===== */
+
+
+@media (width < 2020px) {
+    .hero-section{
+        font-size: 10px;
+    }
+}
+@media (width < 1820px) {
+    .hero-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1720px) {
+    .hero-section{
+        font-size: 9px;
+    }
+}
+@media (width < 1520px) {
+    .hero-section{
+        font-size: 8px;
+    }
+}
+@media (width < 1420px) {
+    .hero-section{
+        font-size: 7.5px;
+    }
+}
+@media (width < 1320px) {
+    .hero-section{
+        font-size: 7px;
+    }
+}
+@media (width < 1220px) {
+    .hero-section{
+        font-size: 6.5px;
+    }
+}
+@media (width < 1120px) {
+    .hero-section{
+        font-size: 6px;
+    }
+}
+@media (width < 1020px) {
+    .hero-section{
+        font-size: 5.5px;
+    }
+}
+@media (width < 920px) {
+    .hero-section{
+        font-size: 5px;
+    }
+}
+@media (width < 820px) {
+    .hero-section{
+        font-size: 4.5px;
+    }
+}
+@media (width < 720px) {
+    .hero-section{
+        font-size: 3.8px;
+    }
+}
+@media (width < 620px) {
+    .hero-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 7rem;
+        font-size: 4px;
+        & .left-side{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+            width: 90%;
+            & h2,p{
+                text-align: center;
+            }
+        }
+    }
+}
+@media (width < 520px) {
+    .hero-section{
+        font-size: 3.5px;
+    }
+}
+
+
+/* ===== HERO SECTION ===== */
+
+
+@media (width < 2020px) {
+    .service-section{
+        font-size: 10px;
+    }
+}
+@media (width < 1820px) {
+    .service-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1720px) {
+    .service-section{
+        font-size: 9px;
+    }
+}
+@media (width < 1520px) {
+    .service-section{
+        font-size: 8px;
+    }
+}
+@media (width < 1420px) {
+    .service-section{
+        font-size: 7.5px;
+    }
+}
+@media (width < 1320px) {
+    .service-section{
+        font-size: 7px;
+    }
+}
+@media (width < 1220px) {
+    .service-section{
+        font-size: 6.5px;
+    }
+}
+@media (width < 1120px) {
+    .service-section{
+        font-size: 6px;
+    }
+}
+@media (width < 1020px) {
+    .service-section{
+        font-size: 5.5px;
+    }
+}
+@media (width < 920px) {
+    .service-section{
+        font-size: 5px;
+    }
+}
+@media (width < 820px) {
+    .service-section{
+        font-size: 4.5px;
+    }
+}
+@media (width < 720px) {
+    .service-section{
+        font-size: 3.8px;
+    }
+}
+@media (width < 620px) {
+    .service-section{
+        font-size: 4px;
+        & h2{
+            text-align: center;
+        }
+    }
+}
+@media (width < 520px) {
+    .service-section{
+        font-size: 3.5px;
+    }
+}
+
+
+/* ===== HTML & BODY ===== */
+
+@media (width < 2020px) {
+    .about-section{
+        font-size: 10px;
+    }
+}
+@media (width < 1920px) {
+    .about-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1820px) {
+    .about-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1720px) {
+    .about-section{
+        font-size: 9px;
+    }
+}
+@media (width < 1620px) {
+    .about-section{
+        font-size: 9px;
+    }
+}
+@media (width < 1520px) {
+    .about-section{
+        font-size: 8px;
+    }
+}
+@media (width < 1420px) {
+    .about-section{
+        font-size: 7px;
+    }
+}
+@media (width < 1320px) {
+    .about-section{
+        font-size: 6.5px;
+    }
+}
+@media (width < 1220px) {
+    .about-section{
+        font-size: 6px;
+    }
+}
+@media (width < 1120px) {
+    .about-section{
+        font-size: 5px;
+    }
+}
+@media (width < 1020px) {
+    .about-section{
+        font-size: 4.5px;
+    }
+}
+@media (width < 920px) {
+    .about-section{
+        font-size: 4px;
+    }
+}
+@media (width < 820px) {
+    .about-section{
+        font-size: 3.5px;
+    }
+}
+@media (width < 720px) {
+    .about-section{
+        font-size: 3px;
+    }
+}
+@media (width < 620px) {
+    .about-section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        font-size: 3px;
+        gap: 15em;
+        & .left-side{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            & .img-1{
+                position: relative;
+                left: 10em;
+            }
+            & .img-2{
+                position: relative;
+                right: 9em;
+            }
+        }
+        & .right-side{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            right: 0%;
+            width: 100%;
+            gap: 4em;
+            & h2,p{
+                text-align: center;
+            }
+            & .about-point-para{
+                text-align: start;
+            }
+            & .container{
+                & div{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (width < 520px) {
+    .about-section{
+        font-size: 2.5px;
+    }
+}
+@media (width < 420px) {
+    .about-section{
+        font-size: 2.5px;
+    }
+}
+
+
+/* ===== HTML & BODY ===== */
+
+@media (width < 2020px) {
+    .download-section{
+        font-size: 10px;
+    }
+}
+@media (width < 1920px) {
+    .download-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1820px) {
+    .download-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1720px) {
+    .download-section{
+        font-size: 9px;
+    }
+}
+@media (width < 1620px) {
+    .download-section{
+        font-size: 9px;
+    }
+}
+@media (width < 1520px) {
+    .download-section{
+        font-size: 8.5px;
+    }
+}
+@media (width < 1420px) {
+    .download-section{
+        font-size: 8.5px;
+    }
+}
+@media (width < 1320px) {
+    .download-section{
+        font-size: 8px;
+    }
+}
+@media (width < 1220px) {
+    .download-section{
+        font-size: 8px;
+    }
+}
+@media (width < 1120px) {
+    .download-section{
+        font-size: 7.5px;
+    }
+}
+@media (width < 1020px) {
+    .download-section{
+        font-size: 7.5px;
+    }
+}
+@media (width < 920px) {
+    .download-section{
+        font-size: 7px;
+    }
+}
+@media (width < 820px) {
+    .download-section{
+        font-size: 7px;
+    }
+}
+@media (width < 720px) {
+    .download-section{
+        font-size: 6.5px;
+    }
+}
+@media (width < 620px) {
+    .download-section{
+        font-size: 6px;
+        & h2,p{
+            text-align: center;
+        }
+    }
+}
+@media (width < 520px) {
+    .download-section{
+        font-size: 5.5px;
+    }
+}
+@media (width < 420px) {
+    .download-section{
+        font-size: 5px;
+    }
+}
+@media (width < 320px) {
+    .download-section{
+        font-size: 4px;
+    }
+}
+
+
+/* ===== HTML & BODY ===== */
+
+@media (width < 2020px) {
+    .testimontal-section{
+        font-size: 10px;
+    }
+}
+@media (width < 1920px) {
+    .testimontal-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1820px) {
+    .testimontal-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1720px) {
+    .testimontal-section{
+        font-size: 9px;
+    }
+}
+@media (width < 1620px) {
+    .testimontal-section{
+        font-size: 9px;
+    }
+}
+@media (width < 1520px) {
+    .testimontal-section{
+        font-size: 8.5px;
+    }
+}
+@media (width < 1420px) {
+    .testimontal-section{
+        font-size: 6px;
+    }
+}
+@media (width < 1320px) {
+    .testimontal-section{
+        font-size: 5px;
+    }
+}
+@media (width < 1220px) {
+    .testimontal-section{
+        font-size: 5px;
+    }
+}
+@media (width < 1120px) {
+    .testimontal-section{
+        font-size: 5px;
+    }
+}
+@media (width < 1020px) {
+    .testimontal-section{
+        font-size: 5px;
+    }
+}
+@media (width < 920px) {
+    .testimontal-section{
+        font-size: 4px;
+    }
+}
+@media (width < 820px) {
+    .testimontal-section{
+        font-size: 4px;
+    }
+}
+@media (width < 720px) {
+    .testimontal-section{
+        font-size: 4px;
+    }
+}
+@media (width < 620px) {
+    .testimontal-section{
+        font-size: 3px;
+        & h2{
+            text-align: center;
+        }
+    }
+}
+@media (width < 520px) {
+    .testimontal-section{
+        font-size: 2.5px;
+    }
+}
+@media (width < 420px) {
+    .testimontal-section{
+        font-size: 2.5px;
+    }
+}
+
+
+/* ===== HTML & BODY ===== */
+
+@media (width < 2020px) {
+    .donate-section{
+        font-size: 10px;
+    }
+}
+@media (width < 1920px) {
+    .donate-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1820px) {
+    .donate-section{
+        font-size: 9.5px;
+    }
+}
+@media (width < 1720px) {
+    .donate-section{
+        font-size: 8px;
+    }
+}
+@media (width < 1620px) {
+    .donate-section{
+        font-size: 7.5px;
+    }
+}
+@media (width < 1520px) {
+    .donate-section{
+        font-size: 7px;
+    }
+}
+@media (width < 1420px) {
+    .donate-section{
+        font-size: 6.5px;
+    }
+}
+@media (width < 1320px) {
+    .donate-section{
+        font-size: 6px;
+    }
+}
+@media (width < 1220px) {
+    .donate-section{
+        font-size: 5.5px;
+    }
+}
+@media (width < 1120px) {
+    .donate-section{
+        font-size: 5px;
+    }
+}
+@media (width < 1020px) {
+    .donate-section{
+        font-size: 4.5px;
+    }
+}
+@media (width < 920px) {
+    .donate-section{
+        font-size: 4px;
+    }
+}
+@media (width < 820px) {
+    .donate-section{
+        font-size: 3.5px;
+    }
+}
+@media (width < 720px) {
+    .donate-section{
+        font-size: 3px;
+    }
+}
+@media (width < 620px) {
+    .donate-section{
+        font-size: 4px;
+        & .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10em;
+            height: fit-content;
+        }
+        & .left-side{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & h2,p{
+                text-align: center;
+            }
+        }
+        & .right-side{
+            position: relative;
+            right: 0%;
+        }
+    }
+}
+@media (width < 520px) {
+    .donate-section{
+        font-size: 3px;
+    }
+}
+@media (width < 420px) {
+    .donate-section{
+        font-size: 2.1px;
+    }
+}
+@media (width < 320px) {
+    .donate-section{
+        font-size: 2px;
+    }
+}

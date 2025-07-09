@@ -11,8 +11,8 @@ export const Hero_Section = () => {
         </div>
         <div className='relative right-side'>
             <img src="/Group 1.png" className='w-[48.6em] z-10 relative  object-cover' alt="image" />
-            <div className='absolute top-[2.3em] left-[-4.7em] z-20 bg-[#fff] text-[#000] px-[1.5em] py-[0.7em] font-semibold capitalize w-fit text-[2.7em] rounded-[0.4em]'>🔥 seamless connection</div>
-            <div className='absolute bottom-[8em] right-[-1em] z-20 bg-[#fff] text-[#000] px-[1.5em] py-[0.7em] font-semibold capitalize w-fit text-[2.7em] rounded-[0.4em]'>🌍 discover & explore</div>
+            <div className='absolute top-[2.3em] left-[-4em] z-20 bg-[#fff] text-[#000] px-[1.5em] py-[0.7em] font-semibold capitalize w-fit text-[2.7em] rounded-[0.4em]'>🔥 seamless connection</div>
+            <div className='absolute bottom-[6em] right-[-2em] z-20 bg-[#fff] text-[#000] px-[1.5em] py-[0.7em] font-semibold capitalize w-fit text-[2.7em] rounded-[0.4em]'>🌍 discover & explore</div>
         </div>
         <div className='absolute bg-[#f2f2f2] left-0 w-full h-[13em] bottom-[-1em]'></div>
     </section>

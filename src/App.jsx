@@ -1,15 +1,15 @@
 import React from 'react'
 import "./App.css"
 import Header from './components/header'
-import { About_Section, DonateSection, DownloadSection, Hero_Section, Service_Section, TestimontalsSection } from './components/component'
+import { AboutSection, DonateSection, DownloadSection, HeroSection, ServiceSection, TestimontalsSection } from './components/component'
 
 function App() {
   return (
     <>
     <Header />
-    <Hero_Section />
-    <Service_Section />
-    <About_Section />
+    <HeroSection />
+    <ServiceSection />
+    <AboutSection />
     <DownloadSection />
     <DonateSection />
     <TestimontalsSection />

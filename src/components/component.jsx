@@ -31,7 +31,7 @@ export const Service_Section = () => {
     ]
 
     return(
-        <section className='service-section text-[10px] font-outfit flex px-[8rem] bg-[#f2f2f2] flex-col pb-[7rem] gap-[7rem] '>
+        <section className='service-section text-[10px] font-outfit flex py-[5rem] px-[8rem] bg-[#f2f2f2] flex-col pb-[7rem] gap-[7rem] '>
             <div className='flex justify-center items-center flex-col gap-[1em]'>
                 <h2 className='text-[7.8em] font-semibold text-[#000] capitalize'>Features That Keep You Hooked!</h2>
                 <h3 className='text-[2.6em] font-outfit font-medium'>Meet, Chat, Share - Anytime, Anywhere!</h3>
